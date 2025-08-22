@@ -19,7 +19,7 @@ Ingeniería meátronica
 [Enlace directo](202945@iberopuebla.mx)
 Resumen:
 Soy estudiante de primer semestre de Mecatronica,con estudios previos en el area de físicos matemáticos.Me inspira la evolución y la autosuperacion, lo que me permite todos los dias dar lo mejor de mi para llegar a ser una persona que aporte algo a la humanidad.He estudiado en la universidad la salle oaxaca seccion bachillerato donde obtuve demasiodos conocimentos que me han permitido tener conocimiento escencial para mi carrera.Mi meta es concluir mis estudios en la universidad ,buscar una maestria y ser una persona de cambio.
-![Diagrama del sistema](recursos/imgs/foto tom.jpg)
+<img src="recursos/imgs/foto tom.jpg" alt="Diagrama del sistema" width="320">
 
 ---
 
