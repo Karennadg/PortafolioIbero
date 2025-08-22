@@ -6,11 +6,11 @@ Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, Mé
 
 ![Diagrama del sistema](recursos/imgs/ibero.jpeg)
 
+---
+
 Karen Itzel Najera De Gante
 
-Ingeniería meátronica
-
-[karen.najera@iberopuebla.mx](karen.najera@iberopuebla.mx)
+Ingeniería meátronica | [karen.najera@iberopuebla.mx](karen.najera@iberopuebla.mx)
 
 
 Resumen:
@@ -21,9 +21,7 @@ Soy estudiante de décimo semestre de Ingeniería Mecatrónica, con formación p
 ---
 Tomás Toledo Fernández
 
-Ingeniería meátronica
-
-[202945@iberopuebla.mx](202945@iberopuebla.mx)
+Ingeniería meátronica | [202945@iberopuebla.mx](202945@iberopuebla.mx)
 
 
 Resumen:
