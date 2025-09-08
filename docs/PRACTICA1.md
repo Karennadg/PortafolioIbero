@@ -22,14 +22,14 @@
 
 ## 3) Alcance y Exclusiones
 
-- **Incluye:**
+**Incluye:**
 -  _Cálculo de los tiempos de salida (alto y bajo) en función de R1, R2 y C1._
 
 - _Análisis del comportamiento de un circuito 555 en modo astable._
 
 - _Uso de simulador para observar la señal de salida.._
 
-- **No incluye:**
+**No incluye:**
 - _Implementación en protoboard o hardware real._
 - _Programación de microcontroladores.._
 - _Control de dispositivos externos con la señal de salida._
@@ -40,6 +40,7 @@
 
 _Durante la realización de la práctica, se diseñó un circuito astable utilizando el temporizador 555 con los siguientes componentes: dos resistencias de 200 kΩ (R1 y R2) y un capacitor de 22 µF (C1). Estos valores fueron ingresados en un simulador, el cual permitió visualizar tanto la señal de salida como los cálculos correspondientes al comportamiento temporal del circuito. El simulador arrojó un tiempo alto (T₁) de aproximadamente 6.0984 segundos, y un tiempo bajo (T₂) de 3.0492 segundos, lo que indica que la señal permanece más tiempo en estado alto que en estado bajo. La frecuencia del ciclo completo resultó ser 0.1091 Hz, lo cual representa una señal de baja frecuencia, adecuada para aplicaciones donde no se requieren cambios rápidos de estado, como en sistemas de parpadeo o temporizadores de larga duración._
 
+<img src="recursos/imgs/P1.png" alt="..." width="100px">
 
 
 
