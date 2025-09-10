@@ -40,9 +40,11 @@
 
 _Durante la realización de la práctica, se diseñó un circuito astable utilizando el temporizador 555 con los siguientes componentes: dos resistencias de 200 kΩ (R1 y R2) y un capacitor de 22 µF (C1). Estos valores fueron ingresados en un simulador, el cual permitió visualizar tanto la señal de salida como los cálculos correspondientes al comportamiento temporal del circuito. El simulador arrojó un tiempo alto (T₁) de aproximadamente 6.0984 segundos, y un tiempo bajo (T₂) de 3.0492 segundos, lo que indica que la señal permanece más tiempo en estado alto que en estado bajo. La frecuencia del ciclo completo resultó ser 0.1091 Hz, lo cual representa una señal de baja frecuencia, adecuada para aplicaciones donde no se requieren cambios rápidos de estado, como en sistemas de parpadeo o temporizadores de larga duración._
 
-<img src="recursos/imgs/P1.png" alt="..." width="100px">
+<img src="recursos/imgs/P1.png" alt="..." width="400px">
 
+_Al final logramos ver el parpadeo de un led con los valores mostrados, en un circuito armado_
 
+[Video armado](https://youtu.be/qEUT99ln2xI)
 
 ---
 
