@@ -1,5 +1,5 @@
 # 📚 Práctica 2: SP32 (ESP32-S3 Dev)
-## 1) Resumen
+
 ## 1) Resumen
 
 - **Equipo / Autor(es):** _Tomás Toledo y Karen Itzel_  
