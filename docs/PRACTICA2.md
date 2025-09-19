@@ -43,10 +43,10 @@ Durante la realización de la práctica, se programo un arduino 3 veces con una 
 
 Al final logramos ver el parpadeo de un led,el encendido y apagado de un led con un botón y el encendido y apagado de un led via bluetooth
 
-Video armado https://youtu.be/omxTmuDJ3wE
+[Video armado] (https://youtu.be/omxTmuDJ3wE)
 ...
-Video armado https://youtu.be/6Y0IOLZDePI
+[Video armado] (https://youtu.be/6Y0IOLZDePI)
 ...
-Video armado https://youtu.be/L-nDj72QoGI
+[Video armado] (https://youtu.be/L-nDj72QoGI)
 ## 5) conclusiones
-En conclusión, se comprendió satisfactoriamente la manera de programar a un arduino para que nos ayude con diferentes tareas y el como nos puede facilitar ciertos trabajos gracias a todas sus posibles funciones..
+En conclusión, se comprendió satisfactoriamente la manera de programar a un arduino para que nos ayude con diferentes tareas y el como nos puede facilitar ciertos trabajos gracias a todas sus posibles funciones.
