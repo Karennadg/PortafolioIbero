@@ -44,11 +44,9 @@ Durante la realización de la práctica, se programo un arduino 3 veces con una 
 
 
 _Al final logramos ver el parpadeo de un led,el encendido y apagado de un led con un botón y el encendido y apagado de un led via bluetooth_
-
-[Video armado] (https://youtu.be/omxTmuDJ3wE)
-
-[Video armado] (https://youtu.be/6Y0IOLZDePI)
-[Video armado] (https://youtu.be/L-nDj72QoGI)
+[Video armado](https://youtu.be/omxTmuDJ3wE)
+[Video armado](https://youtu.be/6Y0IOLZDePI)
+[Video armado](https://youtu.be/L-nDj72QoGI)
 
 ---
 ## 5) conclusiones
