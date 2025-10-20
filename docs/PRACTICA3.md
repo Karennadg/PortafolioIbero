@@ -73,7 +73,7 @@ _El motor incrementa gradualmente su velocidad desde 0 hasta el valor máximo (2
 _Al final logramos ver el comportamiento controlado del motor_
 
 
-[Video armado] (https://youtu.be/vTdIwA4jg94)
+[Video armado](https://youtu.be/vTdIwA4jg94)
 
 ---
 ## 5) conclusiones
