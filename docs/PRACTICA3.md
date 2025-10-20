@@ -1,55 +1,81 @@
-# 📚 Práctica 2: SP32 (ESP32-S3 Dev)
+# 📚 Práctica 3: Control de velocidad de motor DC con ESP32
 
 ## 1) Resumen
 
 - **Equipo / Autor(es):** _Tomás Toledo y Karen Itzel_  
 - **Curso / Asignatura:** _Introducción a la mecatronica_  
-- **Fecha:** _16/09/2025_  
-- **Descripción breve:** En esta práctica se diseñaron e implementaron 3 circuitos con arduino diferentes con diferentes resultados pero con el mismo arduino
+- **Fecha:** _19/09/2025_  
+- **Descripción breve:** En esta práctica se desarrolló un programa en el ESP32 para controlar la velocidad de un motor de corriente directa (DC) utilizando modulación por ancho de pulso (PWM). Se configuraron los pines de salida digital y el canal PWM del microcontrolador para variar gradualmente la velocidad del motor en ambas direcciones de giro.
 ---
 ## 2) Objetivos
-- **General:** _Comprender algunas de las posibles y mas básicas utilidades del arduino y el como programarlo .
+- **General:** _Comprender el control de velocidad de un motor DC mediante señales PWM generadas por el ESP32.
 Específicos:
-Identificar los códigos mas básicos con los que trabaja el arduino.
-Configurar el arduino y ver como funciona el código programado.
+Configurar los pines de salida del ESP32 para controlar la dirección de giro de un motor.
+Observar el cambio de velocidad en ambas direcciones del giro del motor.
 ---
 
 ## 3) Alcance y Exclusiones
 **Incluye:**
 
--Uso de señales bluetooth.
+-Programación en Arduino IDE utilizando el ESP32.
 
--Análisis del comportamiento de un ciclo generado por el arduino.
+-Control de un motor DC mediante salidas digitales y PWM.
 
--Componentes físicos para complementar la practica.
+-Variación progresiva de la velocidad del motor en ambas direcciones.
 
 **No incluye:**
 
--Utilización del wifi del arduino.
+-Control PID o sistemas de regulación automática.
 
--Prueas digitales del funcionamiento.
+-Integración con módulos de comunicación.
 
 ---
+## 4) Codigo
+
+'''
+CCC
+// Que avance en una dirección
+#define in1 32
+#define in2 33
+#define pwm 25
+
+void setup() {
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  ledcAttachChannel(pwm, 1000, 8, 0); // Configuración del canal PWM
+}
+
+void loop() {
+  // Aceleración
+  for (int vel = 0; vel < 256; vel++) {
+    ledcWrite(pwm, vel);
+    digitalWrite(in1, 1);
+    digitalWrite(in2, 0);
+    delay(10);
+  }
+
+  // Desaceleración
+  for (int vel = 256; vel > 0; vel--) {
+    ledcWrite(pwm, vel);
+    digitalWrite(in1, 1);
+    digitalWrite(in2, 0);
+    delay(10);
+  }
+}
+'''
 
 
 ## 4) Resultados
 
-Durante la realización de la práctica, se programo un arduino 3 veces con una función diferente cada vez,en la primera que mandara un parpadeo de un segundo a un led lo cual funciono a la perfección,en la segunda buscamos que el led se encendiera cada vez que presionabamos un botón y salio exelente , el led se encendí cada vez que presionjabamos el botón y para terminar hicimos que el led se encendiera cada vez que nos llegara el mensaje on y haciamos que se apagara cuando el arduino recibia el mensaje off.
-<img src="recursos/imgs/20250919_134527000_iOS.png" alt="..." width="400px">
-
-<img src="recursos/imgs/20250919_134533000_iOS.png" alt="..." width="400px">
-
-<img src="recursos/imgs/20250919_134549000_iOS.png" alt="..." width="400px">
+_El motor incrementa gradualmente su velocidad desde 0 hasta el valor máximo (255) y luego disminuye hasta detenerse. El sentido de giro se mantiene constante, controlado por las señales digitales de los pines in1 y in2._
 
 
 
-_Al final logramos ver el parpadeo de un led,el encendido y apagado de un led con un botón y el encendido y apagado de un led via bluetooth_
+_Al final logramos ver el comportamiento controlado del motor_
 
-[Video armado] (https://youtu.be/omxTmuDJ3wE)
 
-[Video armado] (https://youtu.be/6Y0IOLZDePI)
-[Video armado] (https://youtu.be/L-nDj72QoGI)
+[Video armado] (https://youtu.be/vTdIwA4jg94)
 
 ---
 ## 5) conclusiones
-En conclusión, se comprendió satisfactoriamente la manera de programar a un arduino para que nos ayude con diferentes tareas y el como nos puede facilitar ciertos trabajos gracias a todas sus posibles funciones.
+_Se logró comprender el uso del PWM en el ESP32 para el control de velocidad de un motor DC. El programa permitió visualizar cómo la variación del ciclo de trabajo modifica la potencia entregada al motor, cambiando así su velocidad. Esta práctica constituye la base para el control más avanzado de motores, incluyendo inversión de giro, control de torque y sistemas automáticos_
