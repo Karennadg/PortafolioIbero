@@ -32,9 +32,8 @@ Observar el cambio de velocidad en ambas direcciones del giro del motor.
 ---
 ## 4) Codigo
 
-'''
-CCC
-// Que avance en una dirección
+```cpp
+
 #define in1 32
 #define in2 33
 #define pwm 25
@@ -46,7 +45,7 @@ void setup() {
 }
 
 void loop() {
-  // Aceleración
+
   for (int vel = 0; vel < 256; vel++) {
     ledcWrite(pwm, vel);
     digitalWrite(in1, 1);
@@ -54,7 +53,7 @@ void loop() {
     delay(10);
   }
 
-  // Desaceleración
+ 
   for (int vel = 256; vel > 0; vel--) {
     ledcWrite(pwm, vel);
     digitalWrite(in1, 1);
@@ -62,7 +61,7 @@ void loop() {
     delay(10);
   }
 }
-'''
+```
 
 
 ## 4) Resultados
