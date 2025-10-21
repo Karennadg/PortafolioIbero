@@ -35,17 +35,20 @@ Configurar el arduino y ver como funciona el código programado.
 ## 4) Resultados
 
 Durante la realización de la práctica, se programo un arduino 3 veces con una función diferente cada vez,en la primera que mandara un parpadeo de un segundo a un led lo cual funciono a la perfección,en la segunda buscamos que el led se encendiera cada vez que presionabamos un botón y salio exelente , el led se encendí cada vez que presionjabamos el botón y para terminar hicimos que el led se encendiera cada vez que nos llegara el mensaje on y haciamos que se apagara cuando el arduino recibia el mensaje off.
-<img src="recursos/imgs/20250919_134527000_iOS.png" alt="..." width="400px">
+<img src="../recursos/imgs/20250919_134527000_iOS.png" alt="..." width="400px">
 
-<img src="recursos/imgs/20250919_134533000_iOS.png" alt="..." width="400px">
+<img src="../recursos/imgs/20250919_134533000_iOS.png" alt="..." width="400px">
 
-<img src="recursos/imgs/20250919_134549000_iOS.png" alt="..." width="400px">
+<img src="../recursos/imgs/20250919_134549000_iOS.png" alt="..." width="400px">
 
 
 
 _Al final logramos ver el parpadeo de un led,el encendido y apagado de un led con un botón y el encendido y apagado de un led via bluetooth_
 [Video armado](https://youtu.be/omxTmuDJ3wE)
+
 [Video armado](https://youtu.be/6Y0IOLZDePI)
+
+
 [Video armado](https://youtu.be/L-nDj72QoGI)
 
 ---

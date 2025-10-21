@@ -108,12 +108,12 @@ void moverServo(int angulo) {
 
 _El sistema respondió correctamente a los comandos enviados desde el dispositivo móvil. El servo se movió en un rango de 0° a 180°, permitiendo controlar la dirección del vehículo. Los motores DC reaccionaron adecuadamente a los comandos para avanzar, retroceder, girar y detenerse. El enlace Bluetooth se mantuvo estable durante toda la prueba, mostrando una comunicación eficiente entre el ESP32 y el controlador remoto._
 
-
+<img src="../recursos/imgs/PROYECTO.JPG" alt="..." width="400px">
 
 _Al final realizar un diseño del vehículo y de la pagna de control que permitiera una correcta conexión entre componentes y codigo_
 
 
-[Video armado](https://youtu.be/vTdIwA4jg94)
+[Video armado](https://youtube.com/shorts/hgpl0ZoC3SI?feature=share)
 
 ---
 ## 5) conclusiones
