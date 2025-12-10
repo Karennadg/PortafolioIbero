@@ -1,8 +1,8 @@
 # 📚 Proyecto Final
  
-###Nombre del proyecto: Ball and Plate system
+##Nombre del proyecto: Ball and Plate system
  
-###Autor
+##Autor
 - Tomás Toledo Fernández
 ###Asignatura: Introducción a la Mecatronica
  
